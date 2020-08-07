@@ -69,10 +69,11 @@ rm $dattar_file
 raw_dir=${working_path}/run_${run_num}
 
 # make a place for the ROOT output
-mkdir -p root_output
-EVENT_FILE=${working_path}/root_output/event${run_num}.root
-SENSOR_HK_FILE=${working_path}/root_output/sensorHk${run_num}.root
-EVENT_HK_FILE=${working_path}/root_output/eventHk${run_num}.root
+rootfile_name=run${run_num}
+mkdir -p $rootfile_name
+EVENT_FILE=${working_path}/${rootfile_name}/event${run_num}.root
+SENSOR_HK_FILE=${working_path}/${rootfile_name}/sensorHk${run_num}.root
+EVENT_HK_FILE=${working_path}/${rootfile_name}/eventHk${run_num}.root
 
 # and get the ARA tools active
 source /cvmfs/ara.opensciencegrid.org/trunk/centos7/setup.sh 
@@ -158,6 +159,6 @@ echo ''
 
 # now, we move the results
 echo 'Moving output root files to final home'
-mv root_output/*.root $output_directory/.
+mv $rootfile_name $output_directory/.
 echo 'Moving done'
 echo ''
