@@ -3,7 +3,7 @@ output = /scratch/brianclark/phased_array/reped.$(therun).out
 error = /scratch/brianclark/phased_array/reped.$(therun).err
 
 request_cpus = 1
-request_memory = 2GB
+request_memory = 4GB
 request_disk = 4GB
 Universe = vanilla
 should_transfer_files = YES
