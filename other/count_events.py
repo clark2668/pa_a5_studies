@@ -8,11 +8,11 @@ import global_constants
 
 gStyle.SetOptStat(0)
 start = ROOT.TTimeStamp(2019,1, 1, 0,0,0,0,True,0)
-stop  = ROOT.TTimeStamp(2019,6,30,0,0,0,0,True,0)
+stop  = ROOT.TTimeStamp(2019,12,31,0,0,0,0,True,0)
 start_bin = start.GetSec()
 stop_bin  = stop.GetSec()
 
-h1 = ROOT.TH1D("h1","h1",182, start_bin, stop_bin)
+h1 = ROOT.TH1D("h1","h1",365, start_bin, stop_bin)
 h1.GetXaxis().SetTitle("Date")
 h1.GetYaxis().SetTitle("Number of Events")
 h1.SetTitle("")
@@ -60,7 +60,7 @@ for i_line, line in enumerate(file):
 
 print("Number of events total: {}".format(tot_num_events))
 print("Amount of time in seconds total: {}".format(tot_time))
-print("Number of runs is {}".format())
+# print("Number of runs is {}".format())
 
 c = ROOT.TCanvas("canvas","canvas",1100,850)
 c.cd()
