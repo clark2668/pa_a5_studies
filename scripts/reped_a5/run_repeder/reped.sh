@@ -18,7 +18,7 @@ echo ''
 echo 'About to run repeder'
 cd $working_path
 source /cvmfs/ara.opensciencegrid.org/trunk/centos7/setup.sh 
-${ARA_UTIL_INSTALL_DIR}/bin/repeder $full_path_to_orig_file $pedfile
+${ARA_UTIL_INSTALL_DIR}/bin/repeder $full_path_to_orig_file $pedfile -d -x hist_channel_mask=0x0f0f0f0f
 echo 'Done running repeder'
 echo ''
 
