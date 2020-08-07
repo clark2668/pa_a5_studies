@@ -1,6 +1,6 @@
-log = /scratch/brianclark/phased_array/$(Process).log
-output = /scratch/brianclark/phased_array/$(Process).out
-error = /scratch/brianclark/phased_array/$(Process).err
+log = /scratch/brianclark/phased_array/$(therun).log
+output = /scratch/brianclark/phased_array/$(therun).out
+error = /scratch/brianclark/phased_array/$(therun).err
 
 request_cpus = 1
 request_memory = 2GB
@@ -9,7 +9,7 @@ Universe = vanilla
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
 
-executable = rootify.sh
+executable = job.sh
 arguments = $(out_dir) $(in_file)
 
 queue
