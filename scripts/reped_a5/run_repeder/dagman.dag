@@ -1,0 +1,26 @@
+CONFIG dagman.config 
+
+JOB job_1 job.sub
+VARS job_1 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005085" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005085/event005085.root" therun="005085"
+
+JOB job_2 job.sub
+VARS job_2 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005086" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005086/event005086.root" therun="005086"
+
+JOB job_3 job.sub
+VARS job_3 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005087" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005087/event005087.root" therun="005087"
+
+JOB job_4 job.sub
+VARS job_4 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005088" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005088/event005088.root" therun="005088"
+
+JOB job_5 job.sub
+VARS job_5 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005089" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005089/event005089.root" therun="005089"
+
+JOB job_6 job.sub
+VARS job_6 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005090" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005090/event005090.root" therun="005090"
+
+JOB job_7 job.sub
+VARS job_7 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005091" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005091/event005091.root" therun="005091"
+
+JOB job_8 job.sub
+VARS job_8 out_dir="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005092" in_file="/data/user/brianclark/phased_array/A5_data/root_files/0501/run005092/event005092.root" therun="005092"
+
