@@ -6,7 +6,7 @@ job_index=1
 echo 'CONFIG dagman.config ' >> $job_file
 echo '' >> $job_file
 
-input_list=/home/brianclark/phased_array/pa_a5_studies/scripts/rootify_a5_data/make_lists/A5_0501_io_pairs.txt
+input_list=/home/brianclark/phased_array/pa_a5_studies/scripts/rootify_a5_data/make_lists/A5_0502_io_pairs.txt
 
 while read line; do
 

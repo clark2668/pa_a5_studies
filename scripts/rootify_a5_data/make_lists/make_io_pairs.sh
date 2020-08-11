@@ -1,8 +1,8 @@
 #!/bin/bash
 
-input_list=A5_0501_raw_tar_list.txt
+input_list=A5_0502_raw_tar_list.txt
 final_root_output_location=/data/user/brianclark/phased_array/A5_data/root_files
-out_file=A5_0501_io_pairs.txt
+out_file=A5_0502_io_pairs.txt
 
 while read line; do
 	thedir=`dirname $line`

@@ -1,0 +1,9 @@
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005093.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005094.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005095.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005096.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005097.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005098.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005099.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005100.flat.tar
+/data/user/brianclark/phased_array/A5_data/root_files/0502 /data/wipac/ARA/2019/unbiased/SPS-ARA/0502/SPS-ARA-RAW.ARA05.run_005101.flat.tar
