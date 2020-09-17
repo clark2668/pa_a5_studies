@@ -1,7 +1,7 @@
 #!/bin/bash
 
-input_list=A5_raw_data_tar_list.txt
-final_root_output_location=/data/user/brianclark/phased_array/A5_data/root_files
+input_list=A5_raw_data_unique_tar_list.txt
+final_root_output_location=/data/wipac/ARA/2019/blinded/ARA05_PA/ARA05
 out_file=A5_io_pairs.txt
 
 while read line; do
