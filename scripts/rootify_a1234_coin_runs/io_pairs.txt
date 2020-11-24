@@ -1,0 +1,4 @@
+/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A1 /data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA01.run_014675.flat.tar
+/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A2 /data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA02.run_014524.flat.tar
+/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A3 /data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA03.run_014426.flat.tar
+/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A4 /data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA04.run_007478.flat.tar

@@ -1,0 +1,14 @@
+CONFIG dagman.config 
+
+JOB job_1 job.sub
+VARS job_1 out_dir="/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A1" in_file="/data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA01.run_014675.flat.tar" therun="014675"
+
+JOB job_2 job.sub
+VARS job_2 out_dir="/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A2" in_file="/data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA02.run_014524.flat.tar" therun="014524"
+
+JOB job_3 job.sub
+VARS job_3 out_dir="/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A3" in_file="/data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA03.run_014426.flat.tar" therun="014426"
+
+JOB job_4 job.sub
+VARS job_4 out_dir="/data/wipac/ARA/2019/blinded/ARA05_PA/other/a1234_coincidence/A4" in_file="/data/wipac/ARA/2019/unbiased/SPS-ARA/0530/SPS-ARA-RAW.ARA04.run_007478.flat.tar" therun="007478"
+
